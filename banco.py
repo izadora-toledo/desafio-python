@@ -13,7 +13,8 @@ cursor.execute('''CREATE TABLE faturas (
                     InvoiceNo INTEGER,   
                     InvoiceDate TEXT,    
                     CompanyName TEXT,    
-                    TotalDue REAL        
+                    TotalDue REAL,
+                    InvoiceURL TEXT        
                     )''')
 
 # Salva as alterações
